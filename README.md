@@ -115,7 +115,7 @@ Acesse o link ``` https://heroku.com/ ```
 
 Clique no botão NEW e escolha a opção  ``` Create new app ```
 
-![Image](https://# "Novo projeto")
+![Image](https://github.com/carlosjunior1983/heroku-deploy/blob/main/img/heroku-novo.jpg "Novo projeto")
 
 Informe um nome único, pode deixar a região  ``` United States ```  e clique em ``` Create App ``` 
 
@@ -125,11 +125,16 @@ Seu App no heroku será criado (Obs: Heroku permite criar 5 apps free, mais ser�
 
 Agora, agora com seu App criado, clique em ``` Resources ```  para provisionar um banco de dados PostgreSQL.
 
-![Image](https://# "Resources")
+![Image](https://github.com/carlosjunior1983/heroku-deploy/blob/main/img/heroku-resource.jpg "Resources")
 
-Em Add-ons: pesquise por PostgreSQL e selecione o ``` Heroku Postgres ```. Será apresentado para selecionar o plano. Escolha o pano Free.
+Em Add-ons: pesquise por PostgreSQL e selecione o ``` Heroku Postgres ```. 
 
-![Image](https://# "Resources")
+![Image](https://github.com/carlosjunior1983/heroku-deploy/blob/main/img/heroku-postgresql.jpg "PostgreSQL")
+
+
+Será apresentado para selecionar o plano. Escolha o pano Free.
+
+![Image](https://github.com/carlosjunior1983/heroku-deploy/blob/main/img/heroku-free.jpg "free")
 
 Pronto. Neste momento seu banco de dados PostgreSQL no heroku foi criado/provisionado
 
@@ -161,6 +166,13 @@ Acesse seu pgAdmin localmente.
 - Na aba CONNECTION, preencha os campos HOST, PORT, MAINTENANCE DATABASE(Nome do seu banco), USERNAME e PASSWORD
 - Na aba ADVANCED, preencha o campo DB RESTRICTION (Nome do seu banco)
 - Salve.
+
+
+![Image](https://github.com/carlosjunior1983/heroku-deploy/blob/main/img/postgresql-create.JPG "pgAdmin")
+
+
+
+
 
 #### Criar seed do banco
 
